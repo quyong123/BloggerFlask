@@ -5,7 +5,7 @@ basedir = os.path.abspath(os.path.dirname(__file__))
 
 class Config:
     """
-
+    系统的配置文件
     """
     SECRET_KEY = 'zheshiyigebeishangdedongtian'
     SQLALCHEMY_COMMIT_ON_TEARDOWN = True
